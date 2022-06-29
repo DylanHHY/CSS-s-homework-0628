@@ -10,7 +10,7 @@
         *{
             text-decoration:none;
         }
-        .intro{
+        ._main{
             width: 1200px;
             margin: auto;
         }
@@ -38,11 +38,11 @@
             margin: 0px 16px;
             font-size: 20px;
             color:black
-        }
-        /* end of navigation */
+        }/* end of navigation */
 
         .banner{
             width: 100%;
+            /* background-color: #f3f3f3; */
         }
         .banner .banner_items{
             /* margin: 0px 88px; */
@@ -64,11 +64,60 @@
         .banner .banner_items .banner_items_link img{
             width: 100%;
             border-radius: 10px;
+        }/* end of banner */
+        .container{
+            margin: 40px 88px 192px;
+            padding: 24px;
         }
+        .container .heading_title{
+            /* width: 100%; */
+            width: fit-content;
+            margin: auto;
+            padding: 12px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .container .heading_tilte_border{
+            margin: auto;
+            margin-bottom: 32px;
+            width: 48px;
+            border: 1px solid rgb(255,19,62);
+        }
+        .container .heading_summary{
+            width: fit-content;
+            margin: auto;
+            font-size: 20px;
+        }
+        .container .intro{
+            margin-top: 64px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .container .intro_item{
+            width: 325px;
+            padding: 0px 20px;
+            box-sizing: border-box;
+        }
+        .container .intro_item img{
+            width:  230px;
+            display: block;
+            margin: auto;
+        }
+        .container .intro_item .item_H3{
+            padding: 16px 0px 8px;
+            font-size: 1.125rem;
+            font-weight: 700;
+            text-align:center;
+        }
+        .container .intro_item p {
+            text-align:center;
+        }
+
     </style>
 </head>
 <body>
-    <div class="intro">
+    <div class="_main">
         <header class="nav">
             <div class="nav_logo">
                 <a href="#" class="nav_logo_link">
@@ -92,6 +141,32 @@
                 <a href="#" class="banner_items_link">
                     <img src="pic/Banner.webp">
                 </a></div>
+        </section><!-- end of banner -->
+        <section class="container">
+            <h2 class="heading_title">不只停留在教你釣魚，更引領你乘風破浪</h2>
+            <div class="heading_tilte_border"></div>
+            <!-- <hr> -->
+            <h4 class="heading_summary">我們不藏私的教學，讓所有人都能發揮超越五倍的價值。</h4>
+            <div class="intro">
+                <div class="intro_item">
+                    <img src="pic/learning.webp">
+                    <h3 class="item_H3">鍛鍊實力，主導學習</h3>
+                    <p>搭配最新技術版本，掌握業界脈動，</p>
+                    <p>與需求緊密結合，鍛鍊程式實力。</p>
+                </div>
+                <div class="intro_item">
+                    <img src="pic/plan.webp">
+                    <h3 class="item_H3">完整規劃，絕不漏接</h3>
+                    <p>線上補課、線下討論與社群活動，</p>
+                    <p>確保學員擁有充份且多元的學習資源和支持系統。</p>
+                </div>
+                <div class="intro_item">
+                    <img src="pic/challenge.webp">
+                    <h3 class="item_H3">挑戰困境，突破職涯</h3>
+                    <p>無論新手跨領域轉職，或在職工程師深度進修，</p>
+                    <p>讓五倍為你解構學習，突破困境。</p>
+                </div>
+            </div>
         </section>
     </div>
 </body>
