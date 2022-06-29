@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>0628HW</title>
     <link rel="stylesheet" href="reset.css">
     <style>
         *{
@@ -42,17 +42,13 @@
         /* end of navigation */
 
         .banner{
-            width: 1200px;
-            padding: 0px 24px;
-            margin: 32px 88px 0px;
-            /* box-sizing: border-box; */
-            /* margin-right: auto;
-            margin-left: auto; */
-            /* background-color: #aaa; */
+            width: 100%;
         }
         .banner .banner_items{
+            /* margin: 0px 88px; */
+            padding: 24px;
         }
-        .banner h2{
+        .banner .banner_items .banner_items_h2{
             /* color:red;
             display: block;
             width: fit-content;
@@ -63,10 +59,11 @@
             color:#000;
             width: fit-content;
             margin: auto;
-            font-size: 0px;
+            display: none;
         }
-        .banner a img{
+        .banner .banner_items .banner_items_link img{
             width: 100%;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -91,8 +88,8 @@
         </header><!-- end of navigation -->
         <section class="banner">
             <div class="banner_items">
-                <h2>五倍的五倍券優惠活動</h2>
-                <a href="#">
+                <h2 class="banner_items_h2">五倍的五倍券優惠活動</h2>
+                <a href="#" class="banner_items_link">
                     <img src="pic/Banner.webp">
                 </a></div>
         </section>
