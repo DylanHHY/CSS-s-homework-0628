@@ -11,6 +11,15 @@
     padding: 12px;
     font-size: 30px;
     font-weight: 700;
+    color: #394150;
+}
+.heading_title_left{
+    width: fit-content;
+    /* margin: auto; */
+    padding: 12px 12px 12px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #394150;
 }
 .heading_tilte_border{
     margin: auto;
@@ -18,7 +27,13 @@
     width: 48px;
     border-bottom: 2px solid rgb(255,19,62);
 }
-.background_setting img{
+.heading_tilte_border_left{
+    /* margin: auto; */
+    margin-bottom: 32px;
+    width: 48px;
+    border-bottom: 2px solid rgb(255,19,62);
+}
+.background_setting .bg_img{
     width: 100%;
     display:block;
 }
@@ -119,7 +134,7 @@
 }
 .instructors .instructors_heading{
     margin-bottom: 40px;
-    padding: 0px 100px;
+    padding: 0px 11rem;
 }
 .instructors .heading_summary{
     /* width: fit-content; */
@@ -165,8 +180,8 @@
 .introduction .personal_data .instructors_name .sns_icons {
     width: 100%;
     margin-top: 1.5rem;
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
 }
 /* .introduction .personal_data .instructors_name .sns_icons .icon{
 
@@ -194,7 +209,7 @@
     color:#ff133e
 }
 .introduction .other_course_items{
-    margin: 16px ;
+    margin: 16px 16px 16px 0px;
     display: flex;
     align-items: center;
 }
@@ -260,5 +275,138 @@
     border-radius: 7px;
 }/* end of media */
 
+.courseIntro{
+    padding: 80px 100px 32px 100px;
+    background-color: #29303E;
+}
+.courseIntro .course_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.courseIntro .course_heading{
+    width: 47%;
+}
+.courseIntro .course_container .course_heading h2{
+    color:#fff;
+}
+.courseIntro .course_container .heading_summary{
+    color:#a0a6b1;
+    font-size: 20px;
+}
+.courseIntro .coursestyle{
+    width: 47%;
+    background-color: #ff133e;
+
+}
+.courseIntro .course_container .coursestyle_img{
+    width: 100%;
+    display: block;
+}
+.courseIntro .coursestyle .coursestyle_intro{
+    padding: 1rem;
+
+}
+.courseIntro .course_container .coursestyle_intro_h4{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color:#fff;
+}
+.courseIntro .course_container .coursestyle_intro_p{
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color:#fff;
+}
+.courseIntro .course_container .coursestyle_intro_link{
+    padding: 0.5rem, 0.5rem, 0.5rem, 0;
+    color:#fff;
+
+}
+.courseIntro .RecentCourses .RecentCourses_heading{
+    margin: 1.5rem 0px 1.5rem ;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#fff;
+}
+.courseIntro .Recent_items{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.courseIntro .Recent_items .Recent_items_group{
+    width: 370px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.courseIntro .Recent_items .Recent_items_group .course_img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.courseIntro .Recent_items .Recent_items_group .course_date{
+    border: 1px solid #e5e7eb;
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #6c727f;
+    font-size: 0.75rem;
+}
+.courseIntro .Recent_items .Recent_items_group .course_teacher{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.courseIntro .Recent_items .Recent_items_group .course_teacher .teach_img{
+    width: 1rem;
+}
+.courseIntro .Recent_items .Recent_items_group .teacher_name{
+    color:#a0a6b1;
+    display: flex;
+    justify-content: space-between;
+}
+.courseIntro .Recent_items .Recent_items_group .course_teacher .teach_icon{
+    width: 1rem;
+    transform: rotate(0.5turn);
+}
+.RecentCourses .level_1{
+    color:	#60A5FA;
+}
+.RecentCourses .level_2{
+    color: #34D499;
+}
+.RecentCourses .level_3{
+    color: #F87171;
+}
+
+.courseIntro .more_course{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.courseIntro .more_course .more_course_button{
+    margin: auto;
+    width: 100px;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    width: fit-content;
+    border-radius: 5px;
+}
 
 
