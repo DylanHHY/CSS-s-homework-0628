@@ -458,17 +458,25 @@
 
 .in5x{
     width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .in5x .react_multi_track_list{
     width: 100%;
     margin-bottom: 50px;
+    display: flex;
+}
+.in5x .react_multi_track_list .carousel_track{
+    display: flex;  
+    justify-content: space-around; 
 }
 .in5x .react_multi_track_list .react_multi_carousel_item{
-    width: 400px;
+    width: 350px;
     margin: 0 1.5rem;
     padding: 1.75rem;
     box-sizing: border-box;
-    border: 1px solid #000 ;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
     align-items:center;
 }
 .in5x .react_multi_track_list .student_name_img{
@@ -487,8 +495,6 @@
     line-height: 1.25rem;
     display: inline-block;
 }
-
-
 .react_multi_track_not_list{
    width: 100%;
    display: flex;
@@ -507,7 +513,7 @@
 .track_button button{
     width:100%;
     height: 10%;
-}
+}/* end of in5x */
 
 
 
