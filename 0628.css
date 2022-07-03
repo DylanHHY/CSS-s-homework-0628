@@ -183,9 +183,12 @@
     /* display: flex;
     justify-content: flex-start; */
 }
-/* .introduction .personal_data .instructors_name .sns_icons .icon{
+.introduction .personal_data .instructors_name .sns_icons i{
+    color: #acafb5;
+    font-size: 1.4rem;
+    padding: 5px;
 
-} */
+}
 .instructors .personal_data .position{   
     margin-bottom: 8px;
 }
@@ -409,4 +412,165 @@
     border-radius: 5px;
 }
 
+.studyRoute{
+    padding: 32px 100px 50px;
+    background-color: #f9fafb;
+}
+.studyRoute .heading_summary{
+    margin-right: 300px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
 
+.studyRoute .route_plan{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.studyRoute .route_plan .plan_name{
+    width:47%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.studyRoute .route_plan .plan_name .plan_name_img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.studyRoute .route_plan .plan_name .route_intro{
+    padding: 1.25rem;
+}
+.studyRoute .route_plan .plan_name .link_style_h4{
+    /* margin-bottom: 10px; */
+    padding-bottom: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#394150;
+    border-bottom: 1px solid #e5e7eb;
+}
+.studyRoute .route_plan .plan_name .route_intro_summary{
+    margin: 1rem 0px;
+    color:#394150;
+}
+.plan_intro_go{
+    color: #ff133e;
+}/* end of studyroute */
+
+.article{
+    width: 100%;
+    padding: 0px 1.5rem;
+    box-sizing: border-box;
+}
+.article .article_group{
+    width: 100%;
+    display: flex;
+}
+.article .article_group .article_item{
+    width: 100%;
+    margin: 30px;
+    overflow: hidden;
+}
+.article_itemImg .article_link{
+    width: 100%;
+    height:  100%;
+    display: block;
+}
+.article .article_group .article_item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px 10px 10px 10px ;
+}
+.article_item .article_item_paragraphs{
+    padding: 1.25rem 0px;
+}
+.article_item .article_item_paragraphs .item_H3{
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: #394150;
+}
+.article_item .article_item_paragraphs .article_smail{
+    font-size: 0.75rem;
+    color: #A1A6B1;
+}
+.article .article_button{
+    width: 100%;
+    padding: 12px 32px;
+    margin: 50px auto 50px;
+    font-size: 1.125rem;  
+    width: fit-content;
+    display: block;
+    background-color: #ff153f;
+    color: #fff;
+    border-radius: 7px;
+}/* end of article */
+
+
+.footer{
+    width: 100%;
+    background-color: #29303E;
+}
+.footer .foote_all{
+    margin: 0 7rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .foote_all .fx_info{
+    width: 40%;
+}
+.footer .foote_all .fx_info .fivexaddress{
+    margin: 20px 0;
+}
+.footer .foote_all .fx_info .fivexaddress a{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.footer .footerLink_group{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer .footerLink_group .footerLink_item{
+    width: 33%;
+    padding-bottom: 4rem;
+}
+.footer .footerLink_group .footerLink_item h2{
+    padding-bottom: 1rem;
+    color: #e5e7eb;
+    font-weight: 700;
+}
+.footer .footerLink_group .footerLink_item a{
+    padding: 0.5rem 0;
+    display: block;
+    color: #e5e7eb;
+    font-size: 0.875rem;
+}
+
+.footer .footer_icon_group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer_icon_group i{
+    margin: 20px;
+    font-size: 30px;
+    color: #e5e7eb;
+}
+
+.footer .footer_5xname{
+    padding: 1rem 0.5rem;
+    background-color: #181e2d;
+    font-size: 0.875rem;
+    color: #a0a6b1;
+    text-align: center;
+
+}
