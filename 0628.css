@@ -456,6 +456,62 @@
     color: #ff133e;
 }/* end of studyroute */
 
+.in5x{
+    width: 100%;
+}
+.in5x .react_multi_track_list{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.in5x .react_multi_track_list .react_multi_carousel_item{
+    width: 400px;
+    margin: 0 1.5rem;
+    padding: 1.75rem;
+    box-sizing: border-box;
+    border: 1px solid #000 ;
+    align-items:center;
+}
+.in5x .react_multi_track_list .student_name_img{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.in5x .react_multi_track_list .student_name_img img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+.in5x .react_multi_track_list .student_name{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: inline-block;
+}
+
+
+.react_multi_track_not_list{
+   width: 100%;
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   text-align: center;
+}
+.track_button{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    border-color:   transparent;
+    
+}
+.track_button button{
+    width:100%;
+    height: 10%;
+}
+
+
+
+
 .article{
     width: 100%;
     padding: 0px 1.5rem;
